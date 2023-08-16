@@ -231,8 +231,8 @@ importers:
         specifier: ^6.11.3
         version: 6.13.1
       pino-multi-stream:
-        specifier: ^5.3.0
-        version: 5.3.0
+        specifier: ^6.0.0
+        version: 6.0.0
       pino-sentry:
         specifier: ^0.14.0
         version: 0.14.0
@@ -14454,11 +14454,11 @@ packages:
       duplexify: 4.1.2
       split2: 4.2.0
 
-  /pino-multi-stream@5.3.0:
-    resolution: {integrity: sha512-4fAGCRll18I+JmoAbxDvU9zc5sera/3c+VgTtUdoNMOZ/VSHB+HMAYtixKpeRmZTDHDDdE2rtwjVkuwWB8mYQA==}
+  /pino-multi-stream@6.0.0:
+    resolution: {integrity: sha512-oCuTtaDSUB5xK1S45r9oWE0Dj8RWdHVvaGTft5pO/rmzgIqQRkilf5Ooilz3uRm0IYj8sPRho3lVx48LCmXjvQ==}
     deprecated: No longer supported. Use the multi-stream support in the latest core Pino
     dependencies:
-      pino: 6.13.1
+      pino: 7.11.0
     dev: false
 
   /pino-sentry@0.14.0:
